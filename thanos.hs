@@ -87,7 +87,7 @@ goma GuanteDeGoma = gemaLoca . alma "programacion en Haskell" . alma "usar Mjoln
 
 --------- Punto 5 ---------
 aplicarGema :: Personaje -> Gema -> Personaje
-aplicarGema pj gema = gema pj
+aplicarGema personaje gema = gema personaje
 
 utilizar :: [Gema] -> Gema
 utilizar gemas rival = foldl (aplicarGema) pj gemas
